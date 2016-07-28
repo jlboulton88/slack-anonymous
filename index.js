@@ -16,7 +16,7 @@ function createError(errorMessage) {
 
 function getUsageHelp(commandName) {
     function createSample(target) {
-        return commandName + ' *' + target + '* I know what you did last summer';
+        return commandName + ' *' + target + '* <Message>';
     }
 
     var text = 'Expected usage: \n' +
